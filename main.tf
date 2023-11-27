@@ -220,7 +220,7 @@ resource "aws_security_group" "instance_sg" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["202.166.159.65/32"] # Replace with your IP address or range
+    cidr_blocks = ["123.456.789.101/32"] # Replace with your IP address or range
   }
   tags = {
     Name = "jinnliongSSHSecurityGroup"
